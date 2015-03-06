@@ -6,3 +6,10 @@ Spec2:実行方法
 	Githubリポジトリyamashiro000/yamashiro000-readable-codeから
 	readable-code.cppをクローンしてプロジェクトにファイル追加し
 	ビルドして実行する。
+
+Spec3:レシピデータの分離&レシピデータ読込
+	レシピデータをrecipe-data.txtとして分離し
+	recipe-data.txtをCドライブの直下に置く。
+	ビルドしたプログラムを実行すると
+	Cドライブの直下のrecipe-data.txtを読み込んで
+	コンソールにレシピデータを表示する。
